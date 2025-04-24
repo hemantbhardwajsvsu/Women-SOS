@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Women SOS Helpline</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="title">👩‍🦰 Women SOS Helpline</h1>
+    <p class="subtitle">Your safety is just a click away.</p>
+
+    <div class="card">
+      <button class="sos-btn" id="sosBtn">🚨 Send SOS</button>
+      <div class="actions">
+        <button id="recordAudioBtn">🎤 Record Voice</button>
+        <button id="capturePhotoBtn">📸 Capture Photo</button>
+        <button id="startLocationShare">📍 Share Live Location</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card">
+    <h2>📇 Trusted Contacts</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Name" required />
+      <input type="tel" id="phone" placeholder="Phone Number" required />
+      <button type="submit">Add Contact</button>
+    </form>
+    <ul id="contactList"></ul>
+  </div>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
